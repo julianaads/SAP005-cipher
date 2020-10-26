@@ -1,0 +1,171 @@
+body{
+    background-color: #ccf6c8;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-weight: 2000;
+    font-size:50px;
+    
+}
+
+h2{
+    font-size:25px;
+}
+
+h3{
+    font-weight:700;
+    text-align: center;
+    
+}
+
+ul{
+    list-style-type: none;
+    line-height:2;
+    padding-left:0;
+}
+
+a{
+    text-decoration:none;
+    font-weight:700;
+}
+
+.principal{
+    background:#f0cb9c;
+    margin: 0 normal;
+    height: 40px;
+    text-align: center;
+}
+
+.principal a{
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: underline; 
+}
+
+.principal li{
+    display: inline-block;
+    line-height:40px;
+    margin: 0 89px;
+
+}
+
+.container{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.container_secreto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 28em;
+    margin-top:30px;
+
+    
+}
+
+.mensagem{
+    border: 3px solid #fcffa7;
+    margin-top:35px;
+    margin-bottom:45px;
+    border-radius:20px;
+    width: 450px;
+    height:650px;
+    font-size:20px;
+    background-color: #fafcc2;
+    box-shadow: 4px 4px 10px #000;
+
+}
+
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  font: bold 2.5rem serif;
+  border-bottom: solid 1px #2b0c01;
+  margin-bottom: 20px;
+}
+
+img{
+    width: 20%;
+    height: 10%;
+    
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px #000;
+    
+}
+
+.resultado{
+    display: flex;
+    margin-top: auto;
+    align-items: center;
+    width: 350px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: #f0cb9c;
+    box-shadow: 4px 4px 10px #000;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight:bolder;
+}
+
+button{
+    background-color: #a0ce9b;
+    border-radius: 10px;
+    padding:2px 20px;
+    box-sizing:border-box;
+    box-shadow: 4px 4px 10px #000;
+    width: 150px;
+    height: 35px;
+    margin-left: auto;
+    margin-top: 55px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-weight:bolder;
+    font-size:15px;
+    
+}
+
+form label{
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom:10px ;
+    text-align: left;
+    align-items: justify;
+}
+
+form input{
+    display: inline-block;
+    margin-right: 250px;
+    margin-bottom: 15px;
+}
+
+form input[type="text"] {
+    width:350px;
+    height: 100px;
+    margin-right: 6px;
+    font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px #000;
+}
+
+form input[type="number"] {
+    width:100px;
+    height: 25px;
+    margin-right:20px;
+    font-weight:bolder;
+    border-radius: 5px;
+}
