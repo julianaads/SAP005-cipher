@@ -32,7 +32,7 @@ a{
 }
 
 .principal{
-    background:#f0cb9c;
+    background:#0F4C6A;
     margin: 0 normal;
     height: 40px;
     text-align: center;
@@ -71,15 +71,15 @@ a{
 }
 
 .mensagem{
-    border: 3px solid #fcffa7;
-    margin-top:35px;
+    margin-top:40px;
     margin-bottom:45px;
     border-radius:20px;
     width: 450px;
     height:650px;
-    font-size:20px;
-    background-color: #fafcc2;
+    font-size:22px;
+    background-color: #e2a025;
     box-shadow: 4px 4px 10px #000;
+    
 
 }
 
@@ -97,23 +97,27 @@ a{
 }
 
 img{
-    width: 20%;
-    height: 10%;
-    
+    width:auto;
+    height: auto;
+    padding: auto;
     position: relative;
-    border-radius: 20px;
-    box-shadow: 4px 4px 10px #000;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-repeat: no-repeat;
+
     
 }
+
 
 .resultado{
     display: flex;
     margin-top: auto;
     align-items: center;
     width: 350px;
-    height: 150px;
+    height: 120px;
     border-radius: 20px;
-    background-color: #f0cb9c;
+    background-color: white;
     box-shadow: 4px 4px 10px #000;
     box-sizing: border-box;
     margin-left: auto;
@@ -123,7 +127,7 @@ img{
 }
 
 button{
-    background-color: #a0ce9b;
+    background-color:white;
     border-radius: 10px;
     padding:2px 20px;
     box-sizing:border-box;
@@ -176,3 +180,4 @@ form input[type="number"] {
     font-weight:bolder;
     border-radius: 5px;
 }
+
