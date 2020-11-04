@@ -5,11 +5,11 @@ const cipher = {
     encode: function(criptOffset,msgCripto) {
         let resultCripto = "";
         for(let i=0; i < msgCripto.length; i++){
-        
-            const criptografar = ((msgCripto.charCodeAt(i) - codAsc + criptOffset) % alfabeto) + codAsc;
-        
-            resultCripto += String.fromCharCode(criptografar)
-            //resultCripto = console.log(resultCripto);
+            let criptando = msgCripto.charCodeAt(i);
+            let criptografar = ((criptando - codAsc + criptOffset) % alfabeto) + codAsc;
+            if(criptando <= 64 || criptando >= 91){
+                criptografar = criptando
+            }  resultCripto += String.fromCharCode(criptografar)
     
             document.getElementById("resultCripto").innerHTML = resultCripto
             //return resultCripto
@@ -20,11 +20,11 @@ const cipher = {
     decode: function(msgDescripto,descriptOffset){
         let resultDescripto = "";
         for(let i=0; i < msgDescripto.length; i++){
-        
-            const descriptografar = ((msgDescripto.charCodeAt(i) + 65 - descriptOffset) % 26) + 65;
-        
-            resultDescripto += String.fromCharCode(descriptografar)
-            //console.log(resultDescripto);
+            let desCriptando = msgDescripto.charCodeAt(i);
+            let descriptografar = ((desCriptando + codAsc - descriptOffset) % alfabeto) + codAsc;
+            if(desCriptando <= 64 || desCriptando >= 91){
+                descriptografar = desCriptando
+            }  resultDescripto += String.fromCharCode(descriptografar)
     
             document.getElementById("resultDescripto").innerHTML = resultDescripto
             
