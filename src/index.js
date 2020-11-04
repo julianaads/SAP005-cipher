@@ -18,7 +18,7 @@ const caixaAlta = document.getElementById("criptografar").addEventListener("chan
 function criptografarMsg(event) {
     //preventDefault serve para minha pag não atualizar quando clico no botão
     event.preventDefault();
-    const msgCripto = document.getElementById("criptografar").value;
+    const msgCripto = document.getElementById("criptografar").value
     const criptOffset = parseInt(document.getElementById("criptOffset").value);
     
     cipher.encode(criptOffset,msgCripto)   
