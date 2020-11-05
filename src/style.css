@@ -33,9 +33,10 @@ a{
 
 .principal{
     background:#0F4C6A;
-    margin: 0 normal;
+    margin: 0 auto;
     height: 40px;
     text-align: center;
+    max-width: auto;
 }
 
 .principal a{
