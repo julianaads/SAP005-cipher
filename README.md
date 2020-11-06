@@ -20,6 +20,10 @@ Desenvolvido para detetives!
 
 Ficou curioso?:open_file_folder: [Clique aqui](https://julianaads.github.io/SAP005-cipher/) e acesse a aplicação
 
+Criptografar:
+Digite uma palavra ou texto;
+Em offset escolha a posição da sua chave 
+
 
 ## 3.:mag: Tema
 
