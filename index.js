@@ -63,7 +63,7 @@ function apagarDes(event){
     document.getElementById("descriptografar").value="";
     document.getElementById("descriptOffset").value="";
     document.getElementById("resultDescripto").innerHTML="";
-    //console.log("funcionei");
+    
 }
 
 
