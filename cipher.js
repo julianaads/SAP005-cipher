@@ -15,6 +15,7 @@ const cipher = {
             //return resultCripto
         
           }
+          return resultCripto
     },
 
     decode: function(msgDescripto,descriptOffset){

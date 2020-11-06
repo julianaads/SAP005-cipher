@@ -3,9 +3,9 @@ import cipher from './cipher.js'
 //Códigos relacionados ao formulário Criptografar
      
 //botão criptografar
-const startCripto = document.getElementById("startCripto").addEventListener("click",criptografarMsg);
+document.getElementById("startCripto").addEventListener("click",criptografarMsg);
 //tranformar o conteudo do criptografar em letras maiusculas
-const caixaAlta = document.getElementById("criptografar").addEventListener("change",criptoMaiuscula);
+document.getElementById("criptografar").addEventListener("change",criptoMaiuscula);
 
 //função para deixar letra maiúscula Criptografar
    function criptoMaiuscula(){
@@ -27,8 +27,8 @@ function criptografarMsg(event) {
 
 //códigos relacionados ao formulário Descriptografar 
 //segundo botão
-const startDescripto = document.getElementById("startDescripto").addEventListener("click",descriptografarMsg);
-const maiuscula = document.getElementById("descriptografar").addEventListener("change",descriptoMaiuscula);
+document.getElementById("startDescripto").addEventListener("click",descriptografarMsg);
+document.getElementById("descriptografar").addEventListener("change",descriptoMaiuscula);
 
 //função para deixar letras maiusculas
 function descriptoMaiuscula() {
@@ -46,7 +46,28 @@ function descriptografarMsg(event) {
     event.preventDefault();
 }
 
-console.log(cipher);
+document.getElementById("limparCripto").addEventListener("click",apagar);
+
+function apagar(event){
+    event.preventDefault();
+    document.getElementById("criptografar").value="";
+    document.getElementById("criptOffset").value="";
+    document.getElementById("resultCripto").innerHTML="";
+    //console.log("apaguei");
+}
+
+document.getElementById("limparDescripto").addEventListener("click",apagarDes);
+
+function apagarDes(event){
+    event.preventDefault();
+    document.getElementById("descriptografar").value="";
+    document.getElementById("descriptOffset").value="";
+    document.getElementById("resultDescripto").innerHTML="";
+    //console.log("funcionei");
+}
+
+
+//console.log(cipher);
 
 
 
