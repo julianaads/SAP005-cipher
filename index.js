@@ -39,7 +39,7 @@ function descriptoMaiuscula() {
 //função segundo botão
 function descriptografarMsg(event) {
     const msgDescripto = document.getElementById("descriptografar").value;
-    const descriptOffset = (document.getElementById("descriptOffset")).value;
+    const descriptOffset = parseInt(document.getElementById("descriptOffset").value);
     
     cipher.decode(msgDescripto,descriptOffset)
     //preventDefault serve para minha pag não atualizar quando eu clico no botão

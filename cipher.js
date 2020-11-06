@@ -12,10 +12,10 @@ const cipher = {
             }  resultCripto += String.fromCharCode(criptografar)
     
             document.getElementById("resultCripto").innerHTML = resultCripto
-            //return resultCripto
+            
         
           }
-          return resultCripto
+         
     },
 
     decode: function(msgDescripto,descriptOffset){
