@@ -44,7 +44,7 @@ O público Infanto-Juveniel é o público alvo deste projeto, como forma de ince
 A aplicação também pode ser utilizada nas escolas :books: durante aulas de história e matemática para contar como a Cifra de César foi importante para o Julio César e como a matemática tem um grande papel por tras destas trocas de mensagens criptografadas, e ainda como um incentivo ao estudo de tecnologias já que ainda hoje usamos variações da cifra de César ou até a própria para criar aplicações seguras ao usuário.
 
 
-### :bulb Processo Criativo
+### :bulb: Processo Criativo
 
 
 
