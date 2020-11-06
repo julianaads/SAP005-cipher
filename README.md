@@ -46,12 +46,21 @@ A aplicação também pode ser utilizada nas escolas :books: durante aulas de hi
 
 ### :bulb: Processo Criativo
 
-Desenhei meu layout 
+Desenhei meu layout em folha de sulfite pois ainda não tenho muito conhecimento em ferramentas próprias para isso. Pensei em algo alegre e que ao mesmo tempo remetesse ao mundo Holmes e por isso utilizei elementos do filme Enola Holmes para tal. Como é voltado para o público infanto-juvenil usei cores fortes para prender a atenção deles, fiz formulários grandes para facilitar a leitura, e inclui um link para a revista superinterresante onde lá tem algumas matérias e curiosidades sobre o universo Holmes.
 
 
 
 
 ### :computer: Desenvolvimento
+
+Fiz meu planejamento pela ferramenta Trello, e literalmente fiz pequanas etapas diárias até atingir o resultado que eu gostaria de entregar.
+* Iniciei fazendo o HTML e criando todos meus formulários e links
+* Passei para o CSS para estruturar e dar forma para meu projeto, pois sou muito visual e assim facilitaria meu entendimento
+* Depois criei as funções DOM para teste, com simples frases só para testar a interação HTML / JS
+* Durante a primeira sprint foquei em deixar o projeto "OK" para na segunda sprint focar na lógica 
+* Estudei sobre a cifra, sobre as ferramentas de repetição JS, iniciando assim o desenvolvimento da minha lógica
+* Estruturei a lógica no repl.it e quando funcionou lá passei para o VS Code
+
 
 
 
