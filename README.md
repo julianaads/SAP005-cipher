@@ -46,10 +46,12 @@ A aplicação também pode ser utilizada nas escolas :books: durante aulas de hi
 
 ### :bulb: Processo Criativo
 
+Desenhei meu layout 
 
 
 
-### Desenvolvimento
+
+### :computer: Desenvolvimento
 
 
 
