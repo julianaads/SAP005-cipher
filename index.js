@@ -53,7 +53,7 @@ function apagar(event){
     document.getElementById("criptografar").value="";
     document.getElementById("criptOffset").value="";
     document.getElementById("resultCripto").innerHTML="";
-    //console.log("apaguei");
+    
 }
 
 document.getElementById("limparDescripto").addEventListener("click",apagarDes);
